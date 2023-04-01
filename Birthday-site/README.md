@@ -11,7 +11,7 @@ Welcome to my first project. In this lesson I'll introduce the birthday page , w
 
 Compare the difference between the desktop and mobile version of our festive birthday invitation: 
 
-<img alt="" width="800" src="images/View_Screen.jpg">
+<img alt="" width="800px" src="https://github.com/shivanikumari24/Responsive-website/blob/main/Birthday-site/image/View_Screen.jpg">
 
 Notice how on the mobile (lefthand) version, the image and information are centered for easy access, while the wider desktop version has room for extra imagery and different alignment configurations, with the unicorn to the left of the text.
 
@@ -39,7 +39,3 @@ Technologies used in the project:
 *   html
 *   css
 
-
-<h2>Screenshots:</h2>
-<h5>Mobile version</h5>
-<img src="https://github.com/shivanikumari24/Responsive-website/blob/main/Birthday-site/image/comp-mobile.png" alt="project-screenshot" width="60%" height="20%/">
