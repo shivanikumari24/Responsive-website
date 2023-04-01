@@ -1,0 +1,107 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background-image: url(images/background.jpg) ;
+  /* background-image: linear-gradient(to right ,#FFC3A1 , #E5B8F4); */
+  
+  background-size: cover;
+    /* background: #DDD; */
+    font-family: 'Open Sans', arial, sans-serif;
+  }
+  
+  * {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.75;
+    margin-bottom: 28px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  ul li {
+    list-style: decimal inside;
+  }
+  
+  /*
+   * Heading Styles
+  */
+  
+  
+  h1, h2 {
+    font-family: 'Lobster', cursive;
+    color: #e22f8f;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  h1 {
+  
+    font-size: 35px;
+  }
+  
+  h2 {
+    font-size: 32px;
+  }
+  
+  section.intro{
+    background-color: #FFF;
+    
+  }
+  section.contact{
+    background-color: rgb(215, 213, 213);
+  }
+  /*
+   * Container Styles
+  */
+
+  .container {
+    width: 600px;
+    margin: 100px auto;
+    
+  }
+
+  .hero{
+    line-height: 0;
+  }
+
+  .hero img{
+    width: 100%;
+    border-radius: 20px 20PX 0 0;
+    line-height: 0;
+    
+  }
+
+  aside.left{
+    float: left;
+  }
+ 
+  aside.right{
+    float: right;
+  }
+  
+  section.intro , section.contact{
+    padding: 30px;
+    
+  }
+
+  aside{
+    margin-right: 1.5rem;
+    margin-bottom: 0.625rem;
+  }
+  
